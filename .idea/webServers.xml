@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="452f2f81-f197-4324-bee1-190d042d1ed8" name="fullstack.of.by" url="http://fullstack.of.by">
+        <fileTransfer host="uashared15.twinservers.net" port="21098" rootFolder="/home/ddolgsu/fullstack.of.by" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21098" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

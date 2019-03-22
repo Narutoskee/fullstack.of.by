@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "sirename\\": "vendor/sirename",
+      "app\\": "app"
+    }
+  },
+  "require": {}
+}
