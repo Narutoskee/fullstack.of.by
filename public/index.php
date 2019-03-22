@@ -9,5 +9,9 @@
 </head>
 <body>
 <h1>Test page</h1>
+<?php
+    $new_date= date('M');
+    echo $new_date;
+?>
 </body>
 </html>
