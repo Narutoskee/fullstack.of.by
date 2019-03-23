@@ -1,7 +1,7 @@
 {
   "autoload": {
     "psr-4": {
-      "sirename\\": "vendor/sirename",
+      "fullstack.of.by\\": "vendor/fullstack.of.by",
       "app\\": "app"
     }
   },

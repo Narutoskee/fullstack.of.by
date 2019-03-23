@@ -9,5 +9,8 @@
 </head>
 <body>
 <h1>Test page</h1>
+    <?php
+    var_dump($_SERVER['QUERY_STRING']);
+    ?>
 </body>
 </html>
