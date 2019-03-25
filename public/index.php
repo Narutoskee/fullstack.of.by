@@ -1,16 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>Test page</h1>
-    <?php
-    var_dump($_SERVER['QUERY_STRING']);
-    ?>
-</body>
-</html>
+<?php
+require_once dirname(__DIR__).'/config/init.php';
+require_once LIBS .'/functions.php';
+new \fullstack\App();
+
+debug(\fullstack\App::$app->getProperties());
